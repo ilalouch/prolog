@@ -12,12 +12,14 @@ The beds are lined up in a row with red, black, yellow, brown, blue and green bl
 8. The brown blanket is at the end of a row.
 9. The yellow is above the black blanket.
 
-They are in the following order bottom, up, bottom, up
-from left to right
 *************************************************************/
+
+% use_module(library(clpfd)).
+% run for results with solution(Na,Co,Be).
 
 % up = 1, 3, 5
 % down = 2, 4, 6
+
 
 solution(Names, Colors, Beds):-
     Names = [Liza, Kayla, Zoe, Reeva, Hayley, Beth],
