@@ -1,3 +1,3 @@
-# prolog
+# Prolog
 
 Prolog CLPFD exercises. 
